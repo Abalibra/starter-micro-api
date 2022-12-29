@@ -14,7 +14,7 @@ app.use(bodyParser.json()) ;
 
 app.post('/hook',(req,res)=>{
     console.log(req.body); 
-    console.log(typeof(req.body)
+    console.log(typeof(req.body))
     console.log(req.body.jahez_id)            
     res.send("status code 200");
 })
